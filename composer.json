@@ -1,0 +1,21 @@
+{
+    "name": "devknown/alpha-id",
+    "type": "library",
+    "description": "Convert any integer to a short alphanumeric version.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hassan Azzi",
+            "email": "devknown@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": { "Devknown\\": "src/Devknown/" }
+    }
+}
