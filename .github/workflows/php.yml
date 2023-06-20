@@ -16,9 +16,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: php-actions/phpunit@v3
 
     - name: Test
-      run: vendor/bin/phpunit tests/Devknown/AlphaIDTest.php
+      run: phpunit tests/Devknown/AlphaIDTest.php
       
   build:
 
