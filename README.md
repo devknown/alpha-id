@@ -9,9 +9,8 @@
    <img alt="PHPUnit Tests" src="https://github.com/devknown/alpha-id/actions/workflows/ci.yml/badge.svg">
    <a href="https://github.com/devknown/alpha-id/blob/main/LICENSE">
    <img alt="License" src="https://img.shields.io/github/license/devknown/alpha-id">
-   <a href="#">
-   <img alt="PHP version" src="https://img.shields.io/packagist/dependency-v/devknown/alpha-id/php">
    <a href="https://packagist.org/packages/devknown/alpha-id">
+   <img alt="PHP version" src="https://img.shields.io/packagist/dependency-v/devknown/alpha-id/php">
 </p>
 
 # AlphaID
