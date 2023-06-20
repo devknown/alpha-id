@@ -13,7 +13,6 @@ jobs:
 
       - name: PHPUnit Tests
         uses: php-actions/phpunit@master
-        env:
-          TEST_NAME: Test
         with:
           bootstrap: vendor/autoload.php
+          run: phpunit tests/Devknown/AlphaIDTest.php
