@@ -3,19 +3,19 @@ name: CI
 on: [push]
 
 jobs:
-  build-test:
-    runs-on: ubuntu-latest
-
+  run:
+    runs-on: ${{ matrix.operating-system }}
+    strategy:
+      matrix:
+        operating-system: [ubuntu-latest, windows-latest, macos-latest]
+        php-versions: ['8.0', '8.1']
+    name: "PHP ${{ matrix.php-versions }} test on ${{ matrix.operating-system }}"
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - uses: php-actions/composer@v6
+      - name: Install dependencies
+        run: composer install --no-progress --prefer-dist --optimize-autoloader
 
-      - name: PHPUnit Tests
-        uses: php-actions/phpunit@master
-        env:
-          TEST_NAME: Test
-        with:
-          bootstrap: vendor/autoload.php
-          configuration: tests/phpunit.xml
-          args: --coverage-text
+      - name: Test with phpunit
+        run: vendor/bin/phpunit --coverage-text
