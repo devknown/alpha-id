@@ -1,3 +1,19 @@
+<h4 align="center">AlphaID - Convert any integer to a short alphanumeric version</h4>
+
+<p align="center">
+   <a href="https://github.com/devknown/alpha-id/releases">
+   <img alt="Release" src="https://img.shields.io/github/v/release/devknown/alpha-id">
+   <a href="#">
+   <img alt="PHP Composer" src="https://github.com/devknown/alpha-id/actions/workflows/php.yaml/badge.svg">
+   <a href="#">
+   <img alt="PHPUnit Tests" src="https://github.com/devknown/alpha-id/actions/workflows/ci.yaml/badge.svg">
+   <a href="https://github.com/devknown/alpha-id/blob/main/LICENSE">
+   <img alt="License" src="https://img.shields.io/github/license/devknown/alpha-id">
+   <a href="#">
+   <img alt="PHP version" src="https://img.shields.io/packagist/dependency-v/devknown/alpha-id/php">
+   <a href="https://packagist.org/packages/devknown/alpha-id">
+</p>
+
 # AlphaID
 
 AlphaID let you convert any integer to a short alphanumeric version. It can be useful for generating short, unique, and obfuscated identifiers.
