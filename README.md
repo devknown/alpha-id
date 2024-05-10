@@ -5,8 +5,6 @@
    <img alt="Release" src="https://img.shields.io/github/v/release/devknown/alpha-id">
    <a href="https://github.com/devknown/alpha-id/actions/workflows/php.yml">
    <img alt="PHP Composer" src="https://github.com/devknown/alpha-id/actions/workflows/php.yml/badge.svg">
-   <a href="https://github.com/devknown/alpha-id/actions/workflows/ci.yml">
-   <img alt="PHPUnit Tests" src="https://github.com/devknown/alpha-id/actions/workflows/ci.yml/badge.svg">
    <a href="https://github.com/devknown/alpha-id/blob/main/LICENSE">
    <img alt="License" src="https://img.shields.io/github/license/devknown/alpha-id">
    <a href="https://packagist.org/packages/devknown/alpha-id">
